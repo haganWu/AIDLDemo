@@ -1,6 +1,5 @@
 package com.example.haganwu.aidldemo;
 
-import android.os.Binder;
 
 import java.util.UUID;
 
@@ -28,4 +27,5 @@ public class BankBinder extends IBankAIDL.Stub{
     public String closeAccount(String account, String password) {
         return account+"销户成功!";
     }
+
 }
